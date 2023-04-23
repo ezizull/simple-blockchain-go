@@ -2,7 +2,7 @@ run:
 	@go run main.go
 
 testing:
-	@go test ./...
+	@go test ./... -v
 
 update:
 	@git add .
